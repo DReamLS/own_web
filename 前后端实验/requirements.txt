@@ -1,0 +1,18 @@
+Flask==3.03  # Flask Web 框架
+flask-cors==3.0.10  # 处理跨域请求
+PyMuPDF==1.25.3  # fitz
+Pillow==10.3.0    # PIL
+paddleocr==2.9.1 # PaddleOCR
+pdfplumber==0.11.5
+opencv-python==4.11.0.86
+numpy==1.26.3
+shutils==0.10  # 文件操作工具（Python 标准库，无需单独安装）
+re==2.2.1  # 正则表达式工具（Python 标准库，无需单独安装）
+Werkzeug==2.3.6  # WSGI 工具库（Flask 的依赖）
+
+# 自定义模块（需确保项目结构正确）
+models>=0.1  # 自定义模块，包含 demo、details_abstract、logic_search、flexible_area_abstract
+utils>=0.1  # 自定义模块，包含 file_processing 和 pdf_utils
+
+# 其他可能需要的依赖
+json>=2.0  # JSON 操作（Python 标准库，无需单独安装）
